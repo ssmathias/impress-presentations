@@ -22,6 +22,7 @@ function get_slides($short_version = false) {
 	
 	if (!$short_version) {
 		$slides[] = 'table-of-contents';
+		$slides[] = 'escaping-title';
 	}
 	
 	$slides = array_merge($slides, array(
@@ -39,6 +40,7 @@ function get_slides($short_version = false) {
 	
 	if (!$short_version) {
 		$slides = array_merge($slides, array(
+			'sanitizing-title',
 			'what-is-sanitizing',
 			'sanitizing-v-escaping',
 			'wordpress-sanitizing',
@@ -46,6 +48,7 @@ function get_slides($short_version = false) {
 			'sanitizing-forms',
 			'sanitizing-forms-2',
 			'sanitizing-queries',
+			'validating-title',
 			'what-is-validation',
 			'when-validation',
 			'javascript-validation',
