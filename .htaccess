@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond $1 !((^index\.php)|(.*\.(css|js|jpg|jpeg|png|gif)(\?.*)?$))
+RewriteRule ^(.*)$ /index.php?show=$1 [L]
+</IfModule>
