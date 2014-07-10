@@ -5,6 +5,6 @@
 		<li><code>esc_url($text)</code> : Checks approved protocol and structure, escapes HTML entities, and returns.</li>
 		<li><code>esc_url_raw($text)</code> : Checks approved protocol and structure, but does not escape HTML entities, and returns.</li>
 		<li><code>urlencode($string)</strong> : Converts URL-reserved characters to URL entities for inclusion in query strings.</li>
-		<li><code>urlencode_deep($array)</code> : urlencode iteratively and recursively through an array.1</li>
+		<li><code>urlencode_deep($array)</code> : urlencode iteratively and recursively through an array.</li>
 	</ul>
 </div>

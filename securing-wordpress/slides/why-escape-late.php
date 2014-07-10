@@ -5,6 +5,6 @@
 		<li><strong>It's always there</strong> when you need it.</li>
 		<li><strong>Code audits</strong> are much easier to manage.</li>
 		<li><strong>Filters</strong> can change the value before output.</li>
-		<li><strong>Upstream changes</strong> to wordpress storage or functionality could render your code unsecured in an upgrade.</li>
+		<li><strong>Upstream changes</strong> to WordPress storage or functionality could render your code unsecured in an upgrade.</li>
 	</ul>
 </div>
